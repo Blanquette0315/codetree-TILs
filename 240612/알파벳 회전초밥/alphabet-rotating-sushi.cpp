@@ -20,7 +20,7 @@ int main() {
 
     for (size_t i = 0; i < vec_idx.size() - 1; ++i)
     {
-        if (vec_idx[i] > vec_idx[i + 1])
+        if (vec_idx[i] >= vec_idx[i + 1])
         {
             answer++;
         }
